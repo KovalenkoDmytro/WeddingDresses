@@ -1,0 +1,31 @@
+body {
+  background-color: #262626;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.p-gallery__slide .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s;
+  background-color: #262626;
+}
+.p-gallery__slide .swiper-slide.swiper-slide-active {
+  opacity: 1;
+}
+.p-gallery__slide .swiper-slide img {
+  display: block;
+  width: auto;
+  max-height: 100vh;
+}
+.p-gallery__slide .swiper-slide img:not([src]):not([srcset]) {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=app.css.map */

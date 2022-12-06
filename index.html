@@ -2,45 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeddingDresses</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./app.css">
+
+
+    <script src="./access/js/swipper.js"></script>
+    <script
+            async
+            src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"
+    ></script>
+
+    <script src="./app.js"></script>
 </head>
 <body>
-
-        <main>
-
-            <div class="slider">
-                <div></div>
-            </div>
-
-
-            <!-- Slider main container -->
-            <div class="swiper">
-                <!-- Additional required wrapper -->
+    <main>
+        <div class="p-gallery__slide">
+            <div class="swiper-pagination"></div>
+            <div class="p-gallery__slide swiper">
                 <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    ...
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(1).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(2).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(3).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(4).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy"  data-src="./access/images/Wedding_dress%20(5).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(6).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(7).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(8).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(10).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(11).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(12).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(13).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(14).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(15).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(16).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(17).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(18).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(19).jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="lazy" data-src="./access/images/Wedding_dress%20(20).jpg" alt=""></div>
+
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-
-
-        </main>
-
-
-
+        </div>
+    </main>
 </body>
 </html>
